@@ -12,8 +12,6 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { WhatsappService, WhatsappStatusPayload } from './whatsapp.service';
-import { JwtAuthGuard } from 'src/modules/auth/guards/jwt-auth.guard';
-import { AdminGuard } from 'src/modules/auth/guards/admin.guard';
 import { SendChatMessageDto } from './dto/send-chat-message.dto';
 import {
   WhatsappConversationSummary,
@@ -21,6 +19,7 @@ import {
   WhatsappMessagesResponse,
 } from './whatsapp.types';
 import { ApiBearerAuth } from '@nestjs/swagger';
+import { JwtAuthGuard } from '../modules/auth/guards/jwt-auth.guard';
 
 @UseGuards(JwtAuthGuard)
 @ApiBearerAuth()

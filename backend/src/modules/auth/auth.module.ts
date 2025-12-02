@@ -4,10 +4,10 @@ import { LocalStrategy } from './strategies/local.strategy';
 import { AuthController } from './auth.controller';
 import { JwtModule } from '@nestjs/jwt';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { EnvironmentVariables } from 'src/config/config.configuration';
 import { JwtStrategy } from './strategies/jwt.strategy';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from '../user/entities/user.entity';
+import { EnvironmentVariables } from '../../config/config.configuration';
 
 @Module({
   controllers: [AuthController],

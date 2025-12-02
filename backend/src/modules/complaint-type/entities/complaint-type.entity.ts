@@ -1,7 +1,7 @@
 import { Expose, Type } from 'class-transformer';
-import { Area } from 'src/modules/area/entities/area.entity';
 import { Entity, PrimaryGeneratedColumn, Column, BaseEntity, JoinColumn, ManyToOne } from 'typeorm';
 import { ComplaintPriority } from '../../complaint/complaint.enums';
+import { Area } from '../../area/entities/area.entity';
 
 @Entity('incident')
 export class ComplaintType extends BaseEntity {

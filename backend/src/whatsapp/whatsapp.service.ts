@@ -22,7 +22,6 @@ import { existsSync } from 'fs';
 import { SendTextMessageDto } from './dto/send-text-message.dto';
 import { SendMenuMessageDto } from './dto/send-menu-message.dto';
 import { SendImageMessageDto } from './dto/send-image-message.dto';
-import { EnvironmentVariables } from 'src/config/config.configuration';
 import {
   WhatsappConversationSummary,
   WhatsappMessagePayload,
@@ -32,6 +31,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { WhatsappChatEntity } from './entities/whatsapp-chat.entity';
 import { Repository } from 'typeorm';
 import { WhatsappMessageEntity } from './entities/whatsapp-message.entity';
+import { EnvironmentVariables } from '../config/config.configuration';
 
 export type WhatsappConnectionStatus =
   | 'idle'

@@ -4,7 +4,7 @@ import {
   ExecutionContext,
   UnauthorizedException,
 } from '@nestjs/common';
-import { Role, User } from 'src/modules/user/entities/user.entity';
+import { User, Role } from '../../user/entities/user.entity';
 
 @Injectable()
 export class AdminGuard implements CanActivate {

@@ -8,8 +8,8 @@ import {
   ManyToOne,
   JoinColumn,
 } from 'typeorm';
-import { ComplaintType } from 'src/modules/complaint-type/entities/complaint-type.entity';
 import { AreaType } from './area.type.entity';
+import { ComplaintType } from '../../complaint-type/entities/complaint-type.entity';
 
 @Entity()
 export class Area extends BaseEntity {

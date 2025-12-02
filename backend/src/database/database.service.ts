@@ -1,14 +1,14 @@
 import { ConfigModule, ConfigService } from "@nestjs/config";
 import { TypeOrmModule, TypeOrmModuleOptions } from "@nestjs/typeorm";
-import { EnvironmentVariables } from "src/config/config.configuration";
-import { Area } from "src/modules/area/entities/area.entity";
-import { AreaType } from "src/modules/area/entities/area.type.entity";
-import { ComplaintType } from "src/modules/complaint-type/entities/complaint-type.entity";
-import { User } from "src/modules/user/entities/user.entity";
-import { Complaint } from "src/modules/complaint/entities/complaint.entity";
-import { Complainant } from "src/modules/complaint/entities/complainant.entity";
-import { WhatsappChatEntity } from "src/whatsapp/entities/whatsapp-chat.entity";
-import { WhatsappMessageEntity } from "src/whatsapp/entities/whatsapp-message.entity";
+import { EnvironmentVariables } from "../config/config.configuration";
+import { Area } from "../modules/area/entities/area.entity";
+import { AreaType } from "../modules/area/entities/area.type.entity";
+import { ComplaintType } from "../modules/complaint-type/entities/complaint-type.entity";
+import { Complainant } from "../modules/complaint/entities/complainant.entity";
+import { Complaint } from "../modules/complaint/entities/complaint.entity";
+import { User } from "../modules/user/entities/user.entity";
+import { WhatsappChatEntity } from "../whatsapp/entities/whatsapp-chat.entity";
+import { WhatsappMessageEntity } from "../whatsapp/entities/whatsapp-message.entity";
 
 export const databaseProviders = [
     TypeOrmModule.forRootAsync({
