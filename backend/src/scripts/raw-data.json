@@ -1,0 +1,55 @@
+﻿[
+  {
+    "id": 2,
+    "name": "OBRAS PÚBLICAS - GUILLERMO",
+    "isVisible": true,
+    "incidents": [
+      {
+        "id": 7,
+        "name": "Faltante suministro de agua (Comunitario)",
+        "description": "Incidente relacionado con la falta de suministro de agua que afecta a varias viviendas o una comunidad.",
+        "isVisible": true
+      },
+      {
+        "id": 12,
+        "name": "Faltante suministro eléctrico (Comunitario)",
+        "description": "Incidente relacionado con la falta de suministro eléctrico en una comunidad o varias viviendas.",
+        "isVisible": true
+      },
+      {
+        "id": 8,
+        "name": "Fibra óptica (poste-cableado)",
+        "description": "Incidente que involucra problemas con postes o cableado de fibra óptica en espacios públicos.",
+        "isVisible": true
+      },
+      {
+        "id": 9,
+        "name": "Telered/Personal Flow (poste-cableado)",
+        "description": "Problemas relacionados con postes o cableado de servicios como Telered o Personal Flow en espacios públicos.",
+        "isVisible": true
+      },
+      {
+        "id": 10,
+        "name": "Retirado de poste en desuso (sin cableados)",
+        "description": "Solicitud para retirar un poste en desuso que no contiene cableado activo.",
+        "isVisible": true
+      },
+      {
+        "id": 13,
+        "name": "Faltante de tapas (cloaca-boca de tormenta)",
+        "description": "Incidente relacionado con la ausencia de tapas en cloacas o bocas de tormenta, representando un peligro para los transeúntes.",
+        "isVisible": true
+      },
+      {
+        "id": 11,
+        "name": "Sumideros",
+        "description": "Problemas o necesidades de mantenimiento relacionados con sumideros en espacios públicos.",
+        "isVisible": true
+      }
+    ],
+    "areaType": {
+      "id": 1,
+      "name": "Municipal"
+    }
+  }
+]

@@ -1,0 +1,33 @@
+# ---- NestJS (backend/) ----
+backend/node_modules/
+backend/dist/
+backend/*.tsbuildinfo
+backend/.env
+backend/.env.*.local
+backend/logs/
+backend/*.log
+backend/docker-compose.yml
+backend/.wwebjs_auth/
+backend/.wwebjs_cache/
+backend/static/
+backend/test/
+
+# ---- React + TypeScript (frontend/) ----
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.*.local
+frontend/coverage/
+frontend/.cache/
+frontend/*.tsbuildinfo
+
+# ---- OS-specific ----
+.DS_Store
+Thumbs.db
+
+# ---- IDEs and Editors ----
+.vscode/
+.idea/
+
+# ---- Misc ----
+*.log
